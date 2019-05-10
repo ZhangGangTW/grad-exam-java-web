@@ -20,7 +20,7 @@ Table: student
 | 3         | charlie   | 25        | 1         |
 
 建库建表SQL语句: 
-```
+```mysql
 DROP SCHEMA IF EXISTS school;   
 CREATE SCHEMA school;  
 USE school;    
@@ -53,7 +53,7 @@ Table: teacher
 
 ## 第四题 编码题: 用户API实现
 
-####已提供基础的Spring Boot Web工程和用户服务实现，在```UserController```中完成下列3个接口的开发。
+#### 已提供基础的Spring Boot Web工程和用户服务实现，在```UserController```中完成下列3个接口的开发。
 1. 添加新用户
 2. 根据用户ID查询用户信息
 3. 根据用户ID删除该用户
